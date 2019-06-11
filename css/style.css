@@ -1,0 +1,128 @@
+/* Styles for body */
+body {
+  position: relative;
+  text-align: center;
+}
+
+/* Styles for the div placed at bottom. */
+.spriteChange {
+  margin-top: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: #dcdcdc;
+  position: absolute;
+  top: 95%;
+  padding-bottom: 15px;
+}
+
+.spriteChangeEnter {
+  color: blue;
+  cursor: pointer;
+  margin: 0 6px 0 6px;
+}
+
+.spriteChangeEnter:hover {
+  color: #a52a2a;
+}
+
+/* Modal  */
+.modal-win {
+  /* Initially display no modal box */
+  display: none;
+  /* Fix the modal position */
+  position: fixed;
+  padding-top: 100px;
+  /* Position fixed to (0,0) */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Allow scrolling if needed */
+  overflow: auto;
+  background-image: url('../images/win.gif');
+}
+
+/* Modal  */
+.modal-lost {
+  /* Initially display no modal box */
+  display: none;
+  /* Fix the modal position */
+  position: fixed;
+  padding-top: 100px;
+  /* Position fixed to (0,0) */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* Allow scrolling if needed */
+  overflow: auto;
+  background: linear-gradient(to bottom right, #f6ea7bff, #ffba52ff, #e683a9ff);
+}
+
+/* Modal content */
+.modal-content-win {
+  width: 35%;
+  height: 35%;
+  margin-top: 7%;
+  margin-left: 30%;
+  padding: 30px;
+  background: linear-gradient(160deg, skyblue 30%, lightpink 70%);
+  border: solid 1px white;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 7px ligthpink;
+}
+
+/* Modal content */
+.modal-content-lost {
+  width: 30%;
+  height: 35%;
+  margin-top: 7%;
+  margin-left: 31%;
+  padding: 30px;
+  background-color: #ffdde2ff;
+  border: solid 1px white;
+  border-radius: 20px;
+  box-shadow: 0 0 7px 7px;
+}
+
+/* Button alignment */
+.button-win,
+.button-lost {
+  font-size: 20px;
+  color: #800000;
+  border: solid 1px #a9a9a9;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+.button-lost {
+  background-color: #a2a2a1ff;
+}
+
+.button-win:hover,
+.button-lost:hover {
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#lost-emoji {
+  width: 65px;
+  height: 65px;
+}
+
+#contentH1_win {
+  font-style: italic;
+  padding-left: 9%;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
+
+.power {
+  list-style: none;
+  display: flex;
+  margin-left: 700px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Effective JavaScript: Frogger</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Classic Arcade Game using Object Oriented JavaScript.">
+</head>
+
+<body>
+  <div class="spriteChange">
+    <h2>Click <i class="spriteChangeEnter">Enter</i> to change sprite</h2>
+  </div>
+  <!-- Modal -->
+  <div class="modal-win">
+    <!-- modal content -->
+    <div class="modal-content-win">
+      <h1 id="contentH1-win"></h1>
+      <br>
+      <h2 id="contentH2-win"></h2>
+      <button class="button-win" type="button" name="button">Play again</button>
+    </div>
+  </div>
+  <!-- Modal -->
+  <div class="modal-lost">
+    <!-- modal content -->
+    <div class="modal-content-lost">
+      <img id="lost-emoji" src="./images/lost.png" alt="emoji">
+      <h1 id="contentH1-lost"></h1>
+      <h2 id="contentH2-lost"></h2>
+      <button class="button-lost" type="button" name="button">Try again👍</button>
+    </div>
+  </div>
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
+</body>
+
+</html>
