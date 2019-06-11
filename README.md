@@ -23,7 +23,7 @@ A simple Classic Arcade Game Project for Udacity's Front-end development [nanode
 
 - The starter code for this project can be downloaded from:
 
-    1. The Arcade Game Project repository on GitHub : <https://github.com/udacity/frontend-nanodegree-arcade-game>
+    1.  The Arcade Game Project repository on GitHub : <https://github.com/udacity/frontend-nanodegree-arcade-game>
 
 - You can download or clone them from the repository.
 
@@ -124,7 +124,7 @@ fend-project-arcade-game-master.zip
 
 - The basic view of **Arcade Game Project** is:
 
-  ![screenshot](./images/arcade-game.png)
+  ![screenshot](./images/arcade-game.jpg)
 
 - The goal of the player is to reach the water, without colliding into any one of the enemies.
 
